@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Log out msg | redirects to login page | closes the session for the current user-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Logging Out</title>
+  <meta name="viewpoint" content="width=device-width;initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="../layerUser/dashboardd.css">
+  <script>
+    function pageRedirect() {
+      window.location.replace("logout.php");
+    }
+    setTimeout("pageRedirect()", 1000);
+  </script>
+</head>
+
+<body>
+  <div class="headerrr">
+    <p class="header_textt glow">ASSEMBLE</p>
+  </div>
+  <form class="logfor">
+    <h1>Logging out...</h1>
+    <h2>See you soon!</h2><br>
+    <img src="img1/bye.png" width="120px" height="120px" /><br><br>
+    <div class="txtb">
+      <p>You are being redirected to HOME page.</p>
+    </div>
+  </form>
+</body>
+
+</html>
